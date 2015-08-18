@@ -20,6 +20,6 @@ var phoneNumber = {
 }
 
 phonelib.isValid(phoneNumber, function(err, result){
-  console.log(result);
+  console.log(result); //{ international: '+1 202-456-1414', isValid: true }
 });
 ```
