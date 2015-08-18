@@ -1,0 +1,26 @@
+{
+  "name": "phonelib",
+  "version": "1.0.0",
+  "description": "Simple phonelib validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/lab/bin/lab test  -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:gepser/phonelib.git"
+  },
+  "keywords": [
+    "2click",
+    "phonelib"
+  ],
+  "author": "Gepser Hoil",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^1.5.0",
+    "lab": "^5.15.1"
+  },
+  "dependencies": {
+    "google-libphonenumber": "^1.0.4"
+  }
+}
