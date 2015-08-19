@@ -1,6 +1,8 @@
 
 [![npm version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
+[![js-standard-style][standard-image]][standard-url]
+
 
 # phonelib
 Simple phonelib validator
@@ -42,3 +44,5 @@ This package is licensed under MIT.
 [npm-url]: https://npmjs.org/package/phonelib
 [travis-image]: https://travis-ci.org/gepser/phonelib.svg
 [travis-url]: https://travis-ci.org/gepser/phonelib
+[standard-image]: https://cdn.rawgit.com/feross/standard/master/badge.svg
+[standard-url]: https://github.com/feross/standard
