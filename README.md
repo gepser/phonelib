@@ -34,6 +34,10 @@ phonelib.isValid(phoneNumber, function(err, result){
 npm test
 ```
 
+## Licenses
+
+This package is licensed under MIT.
+
 [npm-image]: https://img.shields.io/npm/v/phonelib.svg
 [npm-url]: https://npmjs.org/package/phonelib
 [travis-image]: https://travis-ci.org/gepser/phonelib.svg
