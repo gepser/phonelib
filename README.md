@@ -1,3 +1,6 @@
+
+[![build status][travis-image]][travis-url]
+
 # phonelib
 Simple phonelib validator
 
@@ -23,3 +26,5 @@ phonelib.isValid(phoneNumber, function(err, result){
   console.log(result); //{ international: '+1 202-456-1414', isValid: true }
 });
 ```
+[travis-image]: https://travis-ci.org/gepser/phonelib.svg?branch=master
+[travis-url]: https://travis-ci.org/gepser/phonelib
