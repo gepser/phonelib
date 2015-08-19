@@ -27,7 +27,7 @@ phonelib.isValid(phoneNumber, function(err, result){
   console.log(result); //{ international: '+1 202-456-1414', isValid: true }
 });
 ```
-[npm-image]: https://img.shields.io/npm/v/phonelib.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/phonelib.svg
 [npm-url]: https://npmjs.org/package/phonelib
 [travis-image]: https://travis-ci.org/gepser/phonelib.svg?branch=master
 [travis-url]: https://travis-ci.org/gepser/phonelib
