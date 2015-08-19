@@ -29,5 +29,5 @@ phonelib.isValid(phoneNumber, function(err, result){
 ```
 [npm-image]: https://img.shields.io/npm/v/phonelib.svg
 [npm-url]: https://npmjs.org/package/phonelib
-[travis-image]: https://travis-ci.org/gepser/phonelib.svg?branch=master
+[travis-image]: https://travis-ci.org/gepser/phonelib.svg
 [travis-url]: https://travis-ci.org/gepser/phonelib
