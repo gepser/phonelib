@@ -4,7 +4,7 @@
   "description": "Simple phonelib validator",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/lab/bin/lab test  -t 100"
+    "test": "standard && ./node_modules/lab/bin/lab test  -t 100"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   "license": "MIT",
   "devDependencies": {
     "code": "^1.5.0",
-    "lab": "^5.15.1"
+    "lab": "^5.15.1",
+    "standard": "^5.1.0"
   },
   "dependencies": {
     "google-libphonenumber": "^1.0.4"
