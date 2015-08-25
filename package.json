@@ -1,6 +1,6 @@
 {
   "name": "phonelib",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple phonelib validator",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,10 @@
     "url": "https://github.com/gepser/phonelib"
   },
   "keywords": [
-    "2click",
-    "phonelib"
+    "google",
+    "phonelib",
+    "google-libphonenumber",
+    "libphonenumber"
   ],
   "author": "Gepser Hoil",
   "license": "MIT",
