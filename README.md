@@ -1,7 +1,6 @@
 
 [![npm version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
-[![Coverage Status](https://coveralls.io/repos/gepser/phonelib/badge.svg?branch=master&service=github)](https://coveralls.io/github/gepser/phonelib?branch=master)
 
 [![js-standard-style][standard-image]][standard-url]
 
