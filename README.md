@@ -2,6 +2,7 @@
 [![npm version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test Coverage](https://codeclimate.com/github/gepser/phonelib/badges/coverage.svg)](https://codeclimate.com/github/gepser/phonelib/coverage)
+[![Code Climate](https://codeclimate.com/github/gepser/phonelib/badges/gpa.svg)](https://codeclimate.com/github/gepser/phonelib)
 
 [![js-standard-style][standard-image]][standard-url]
 
