@@ -1,3 +1,3 @@
-var phonelib = require('./lib/phonelib')
+var phonelib = require('./lib/phonelib');
 
-module.exports = phonelib
+module.exports = phonelib;

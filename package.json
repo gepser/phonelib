@@ -4,7 +4,8 @@
   "description": "Simple phonelib validator",
   "main": "index.js",
   "scripts": {
-    "test": "standard --verbose | snazzy && ./node_modules/lab/bin/lab test  -t 100 -r lcov>lcov.info"
+    "test": "./node_modules/lab/bin/lab test  -t 100",
+    "testlcov": "./node_modules/lab/bin/lab test  -t 100 -r lcov>lcov.info"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,8 @@
   "license": "MIT",
   "devDependencies": {
     "code": "^1.5.0",
-    "lab": "^5.15.1",
-    "snazzy": "^2.0.1",
-    "standard": "^5.1.0"
+    "jshint": "^2.8.0",
+    "lab": "^5.15.1"
   },
   "dependencies": {
     "google-libphonenumber": "^1.0.4"
