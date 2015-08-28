@@ -27,7 +27,12 @@ var phoneNumber = {
 }
 
 phonelib.isValid(phoneNumber, function(err, result){
-  console.log(result); //{ international: '+1 202-456-1414', isValid: true }
+  console.log(result);
+  //result ==> { international: '+1 202-456-1414', isValid: true, numberType: 2}
+
+  /*You can see the full numberType list on lib/phonelibtype.js
+    it uses the same Google list. */
+
 });
 ```
 

@@ -1,10 +1,9 @@
 {
-    'eqeqeq':       true,       // Prevents usage of == and !=
-    'indent':       2,          // Forces indentation to be 4 spaces
-    'quotmark':     'single',   // Forces to use single quotation marks
-    'camelcase':    true,       // Enforces camelcase usage
-    'curly':        true,       // Requires curly braces to be used on new scopes
-    'freeze':       true,       // Prohibits overwriting native prototypes such as Date.
-    'noempty':      true,       // Prevents creation of empty blocks
-    'undef':        true,       // Requires all non global variables to be defined to aviod leaks
+    "eqeqeq":       true,       // Prevents usage of == and !=
+    "indent":       2,          // Forces indentation to be 4 spaces
+    "quotmark":     "single",   // Forces to use single quotation marks
+    "camelcase":    true,       // Enforces camelcase usage
+    "curly":        true,       // Requires curly braces to be used on new scopes
+    "freeze":       true,       // Prohibits overwriting native prototypes such as Date.
+    "noempty":      true        // Prevents creation of empty blocks
 }
