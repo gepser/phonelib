@@ -52,15 +52,15 @@ lab.experiment('Check numbers', function () {
 
   lab.test('Check number type', function (done) {
 
-    var phone = '2024561414';
-    var country = 'US';
+    var phone = '40570609';
+    var country = 'GT'; 
 
     var expected = {
       numberType: phoneType.phoneNumberType.MOBILE
     };
 
     phonelib.isValid({phone: phone, country: country}, function (err, phoneNumber) {
-console.log(phoneNumber);
+
       if (err) {
         done(err);
       }
