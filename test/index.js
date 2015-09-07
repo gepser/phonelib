@@ -53,7 +53,7 @@ lab.experiment('Check numbers', function () {
   lab.test('Check number type', function (done) {
 
     var phone = '40570609';
-    var country = 'GT'; 
+    var country = 'GT';
 
     var expected = {
       numberType: phoneType.phoneNumberType.MOBILE
@@ -68,6 +68,29 @@ lab.experiment('Check numbers', function () {
       done();
     });
 
+  });
+
+  lab.test('Check if error is properly returned', function (done) {
+
+    var phone = '1';
+    var country = 'GT';
+
+    var expected = {
+      numberType: phoneType.phoneNumberType.MOBILE
+    };
+
+    phonelib.isValid({phone: phone, country: country}, function (err, phoneNumber) {
+
+      var expectedError = 'Error: The string supplied did not seem to be a phone number';
+
+      if(err){
+        expect(err.toString()).to.be.equal(expectedError);
+        done();
+      }else{
+        done('Should be an error.');
+      }
+
+    });
   });
 
 });
