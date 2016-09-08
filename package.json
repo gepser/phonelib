@@ -20,9 +20,9 @@
   "author": "Gepser Hoil",
   "license": "MIT",
   "devDependencies": {
-    "code": "^3.0.2",
-    "jshint": "^2.9.3",
-    "lab": "^11.0.1"
+    "code": "^1.5.0",
+    "jshint": "^2.8.0",
+    "lab": "^5.15.1"
   },
   "dependencies": {
     "google-libphonenumber": "^1.1.0"
